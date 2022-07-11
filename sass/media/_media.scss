@@ -1,4 +1,19 @@
 /* Tablet */
+@media (min-width: 1200px) {
+    .projects__card-tablets .projects__card-image {
+        width: 520px;
+    }
+
+    .projects__card-tablets .projects__card-title {
+        font-size: 30px;
+    }
+
+    .projects__card-tablets .projects__card-subtitle {
+        font-size: 20px;
+    }
+
+}
+
 @media (max-width: 1199px) {
     width: 900px;
 }
