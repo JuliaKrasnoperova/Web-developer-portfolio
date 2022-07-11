@@ -29,6 +29,32 @@
     .timeline__item:nth-child(even) {
         margin-left: 0;
     }
+
+    .timeline__item::before {
+        right: auto;
+        left: 0;
+    }
+
+    .timeline__item:nth-child(even)::before {
+        left: 0;
+    }
+
+    .timeline__item::after {
+        right: auto;
+        left: 0;
+        left: 15px;
+    }
+
+    .timeline__item:nth-child(even)::after {
+        left: 15px;
+    }
+
+    .timeline__item {
+        padding-right: 0;
+        padding-left: 36px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
 }
 
 /* Mobile XS */
