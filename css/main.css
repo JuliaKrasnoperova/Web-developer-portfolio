@@ -161,8 +161,12 @@ body > * {
   padding: 50px 0;
 }
 
+.header {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
 .header__nav {
-  padding-top: 68px;
   padding-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,6 +330,16 @@ body > * {
   line-height: 1.3;
 }
 
+.process {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.process__title-2 {
+  text-align: center;
+  margin-bottom: 77px;
+}
+
 .title-1 {
   font-weight: 700;
   font-size: 78px;
@@ -345,6 +359,12 @@ body > * {
   line-height: 1.3;
 }
 
+.title-4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
 .gradient-line {
   display: inline;
   background-repeat: no-repeat;
@@ -352,6 +372,14 @@ body > * {
   background-size: 100% 12px;
   background-image: -webkit-gradient(linear, left top, right top, from(#FBDC4D), to(#FBDC4D));
   background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+}
+.gradient-line--thin {
+  background-position: center bottom 8px;
+  background-size: 100% 8px;
+}
+.gradient-line--thiner {
+  background-position: center bottom 6px;
+  background-size: 100% 6px;
 }
 
 .button {
@@ -389,6 +417,39 @@ body > * {
           filter: grayscale(1);
 }
 
+.timeline {
+  max-width: 901px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline__item {
+  max-width: 350px;
+  position: relative;
+  width: 50%;
+}
+
+.timeline__item:nth-child(even) {
+  margin-left: auto;
+}
+
+.timeline__title {
+  margin-bottom: 8px;
+}
+
+.timeline__text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.timeline__text span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
 /* Tablet */
 @media (min-width: 1200px) {
   .projects__card-tablets .projects__card-image {
@@ -404,15 +465,25 @@ body > * {
   }
 }
 @media (max-width: 1199px) {
-  width: 900px;
+  .container {
+    width: 900px;
+  }
 }
 /* Mobile */
 @media (max-width: 899px) {
-  width: 600px;
+  .container {
+    width: 600px;
+  }
+
+  .timeline__item:nth-child(even) {
+    margin-left: 0;
+  }
 }
 /* Mobile XS */
 @media (max-width: 599px) {
-  width: 320px;
+  .container {
+    width: 320px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

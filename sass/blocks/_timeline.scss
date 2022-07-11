@@ -1,0 +1,39 @@
+.timeline {
+    max-width: 901px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline__item {
+    max-width: 350px;
+    position: relative;
+    width: 50%;
+}
+
+
+
+.timeline__item:nth-child(even) {
+    margin-left: auto;
+}
+
+
+
+
+.timeline__title {
+    margin-bottom: 8px;
+}
+
+
+.timeline__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.timeline__text span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+
+}

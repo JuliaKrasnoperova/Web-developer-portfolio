@@ -4,4 +4,14 @@
     background-position: center bottom 12px;
     background-size: 100% 12px;
     background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+
+    &--thin {
+        background-position: center bottom 8px;
+        background-size: 100% 8px;
+    }
+
+    &--thiner {
+        background-position: center bottom 6px;
+        background-size: 100% 6px;
+    }
 }
