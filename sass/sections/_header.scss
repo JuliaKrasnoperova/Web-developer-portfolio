@@ -31,7 +31,7 @@
 }
 
 .header__text {
-    flex-basis: 535px;
+    max-width: 542px;
     font-weight: 400;
     font-size: 22px;
     line-height: 1.6;
@@ -52,13 +52,14 @@
 
 
 .header__image {
-    flex-basis: 475px;
+    width: 475px;
     z-index: 3;
     box-shadow: (21px 27px 0 rgba(255, 255, 255, 0.5));
 }
 
 .header__image img {
     width: 100%;
+    height: 100%;
 }
 
 .header__banner img {
@@ -72,7 +73,6 @@
     justify-content: space-between;
 }
 
-.header__skills {}
 
 .header__title-3 {
     margin-bottom: 30px;
