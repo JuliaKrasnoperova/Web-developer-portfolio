@@ -1,0 +1,31 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #333333;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.footer__text {
+    max-width: 825px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #B0B0B0;
+    margin-bottom: 10px;
+
+    a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+
+}
