@@ -2,6 +2,12 @@
     padding-top: 40px;
     padding-bottom: 50px;
     background: #333333;
+
+    // Tablet Big
+    @media (max-width: 1139px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 .footer__copyright {
@@ -9,6 +15,7 @@
     font-size: 16px;
     line-height: 1.4;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .footer__text {
@@ -28,4 +35,18 @@
         color: #FFFFFF;
     }
 
+    // Tablet Big
+    @media (max-width: 1139px) {
+        font-size: 14px;
+    }
+
+    // Tablet Small
+    @media (max-width: 899px) {
+        margin-bottom: 20px;
+    }
+
+}
+
+.footer__text:last-child {
+    margin-bottom: 0;
 }

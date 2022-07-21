@@ -5,13 +5,33 @@
     background-size: 100% 12px;
     background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
 
+    // Tablet Small
+    @media (max-width: 899px) {
+        background-position: center bottom 8px;
+        background-size: 100% 8px;
+    }
+
     &--thin {
         background-position: center bottom 8px;
         background-size: 100% 8px;
+
+        // Tablet Small
+        @media (max-width: 899px) {
+            background-position: center bottom 5px;
+
+        }
     }
 
     &--thiner {
         background-position: center bottom 6px;
         background-size: 100% 6px;
+
+        // Tablet Small
+        @media (max-width: 899px) {
+            background-position: center bottom 1px;
+
+        }
     }
+
+
 }

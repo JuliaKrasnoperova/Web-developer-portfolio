@@ -41,12 +41,16 @@
 	<header class="header">
 		<div class="container">
 			<nav class="header__nav">
+				<div class="header__logo">HTML Верстальщик</div>
 				<ul class="header__list">
 					<li><a href="#">Навыки</a></li>
 					<li><a href="#">Портфолио</a></li>
 					<li><a href="#">Как я работаю</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
+				<div class="nav-icon">
+					<div class="nav-icon__middle"></div>
+				</div>
 				<div class="header__links">
 					<a href="#">
 						<img src="./img/header/in.svg" alt="in">
@@ -65,49 +69,49 @@
 						соблюдением
 						сроков и выполнением ТЗ. </p>
 					<div class="header__buttons">
-						<a href="#" class="button button--yellow">Познакомиться</a>
-						<a href="#" class="button button--blue">Контакты</a>
+						<a href="#" class="button">Познакомиться</a>
+						<a href="#" class="button button--accent">Контакты</a>
 					</div>
 				</div>
 				<div class="header__image">
 					<img src="./img/header/header-image.png" alt="computer">
 				</div>
 			</div>
-			<div class="header__banner">
-				<img src="./img/header/header-banner.png" alt="banner">
+		</div>
+		<div class="header__banner">
+			<img src="./img/header/header-banner.png" alt="banner">
+		</div>
+		<div class="header__info container">
+			<div class="header__skills">
+				<h3 class="title-3">Что я умею:</h3>
+				<ul class="header__points">
+					<li class="header__points-item">pixel perfect, полное соответствие макету</li>
+					<li class="header__points-item">верстаю с сеткой или без</li>
+					<li class="header__points-item">адаптивная верстка под мобильные устройства</li>
+					<li class="header__points-item">оптимизация по retina экраны</li>
+					<li class="header__points-item">с Bootstrap и без него</li>
+				</ul>
 			</div>
-			<div class="header__info">
-				<div class="header__skills">
-					<h3 class="title-3 header__title-3">Что я умею:</h3>
-					<ul class="header__points">
-						<li class="header__points-item">pixel perfect, полное соответствие макету</li>
-						<li class="header__points-item">верстаю с сеткой или без</li>
-						<li class="header__points-item">адаптивная верстка под мобильные устройства</li>
-						<li class="header__points-item">оптимизация по retina экраны</li>
-						<li class="header__points-item">с Bootstrap и без него</li>
-					</ul>
+			<div class="header__socials">
+				<h3 class="title-3">На связи:</h3>
+				<div class="socials">
+					<a href="#">
+						<img src="./img/header/telegram.svg" alt="telegram">
+					</a>
+					<a href="#">
+						<img src="./img/header/vk.svg" alt="vk">
+					</a>
+					<a href="#">
+						<img src="./img/header/facebook.svg" alt="facebook">
+					</a>
+					<a href="#">
+						<img src="./img/header/instagram.svg" alt="instagram">
+					</a>
+					<a href="#">
+						<img src="./img/header/whatsapp.svg" alt="whatsapp">
+					</a>
 				</div>
-				<div class="header__socials">
-					<h3 class="title-3 header__title-3">На связи:</h3>
-					<div class="socials header__socials">
-						<a href="#">
-							<img src="./img/header/telegram.svg" alt="telegram">
-						</a>
-						<a href="#">
-							<img src="./img/header/vk.svg" alt="vk">
-						</a>
-						<a href="#">
-							<img src="./img/header/facebook.svg" alt="facebook">
-						</a>
-						<a href="#">
-							<img src="./img/header/instagram.svg" alt="instagram">
-						</a>
-						<a href="#">
-							<img src="./img/header/whatsapp.svg" alt="whatsapp">
-						</a>
-					</div>
-					<a href="mailto:julia.krasnoperova97@gmail.com" class="email">julia.krasnoperova97@gmail.com</a>
-				</div>
+				<a href="mailto:julia.krasnoperova97@gmail.com" class="text-link">julia.krasnoperova97@gmail.com</a>
 			</div>
 		</div>
 	</header>
@@ -117,14 +121,14 @@
 				<h2 class="title-2 gradient-line gradient-line--thin">Портфолио</h2>
 			</div>
 			<div class="projects__card-wrapper">
-				<div class="projects__card projects__card-tablets">
+				<div class="projects__card">
 					<div class="projects__card-image">
 						<img src="./img/projects/01.png" alt="card">
 					</div>
 					<p class="projects__card-title">Верстка “Форест тревел”</p>
 					<span class="projects__card-subtitle">Верстка многостраничного сайта </span>
 				</div>
-				<div class="projects__card projects__card-tablets">
+				<div class="projects__card">
 					<div class="projects__card-image">
 						<img src="./img/projects/02.png" alt="card">
 					</div>
@@ -214,16 +218,19 @@
 	<section class="contacts">
 		<div class="container">
 			<div class="contacts__title-2">
-				<h2 class="title-2 gradient-line gradient-line--thin">Как я работаю</h2>
+				<h2 class="title-2 gradient-line gradient-line--thin">Контакты</h2>
 			</div>
 			<div class="contacts__wrapper">
 				<div class="contacts__links">
-					<span class="contacts__title">Email</span>
-					<span class="contacts__title">Телефон</span>
-				</div>
-				<div class="contacts__links">
-					<a href="mailto:julia.krasnoperova97@gmail.com" class="email">julia.krasnoperova97@gmail.com</a>
-					<a href="tel:+79193444046" class="tel">+7 (919) 344-40-46</a>
+					<div class="contacts__links-wrapper">
+						<span class="contacts__title">Email</span>
+						<a href="mailto:julia.krasnoperova97@gmail.com"
+							class="text-link">julia.krasnoperova97@gmail.com</a>
+					</div>
+					<div class="contacts__links-wrapper">
+						<span class="contacts__title">Телефон</span>
+						<a href="tel:+79193444046" class="text-link">+7 (919) 344-40-46</a>
+					</div>
 				</div>
 				<div class="contacts__text">
 					<p>
@@ -255,8 +262,9 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__copyright">&copy; 2021 — Юрий Ключевский</div>
-			<div class="footer__text">Веб-разработчик из Москвы, занимаюсь версткой и созданием сайтов. Этот сайт сделал
-				в рамках прохождения обучения по верстке на курсах от <a href="#">WebCademy.ru</a>
+			<div class="footer__text">Веб-разработчик из Москвы, занимаюсь версткой и созданием сайтов.</div>
+			<div class="footer__text">Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a
+					href="#">WebCademy.ru</a>
 			</div>
 		</div>
 	</footer>

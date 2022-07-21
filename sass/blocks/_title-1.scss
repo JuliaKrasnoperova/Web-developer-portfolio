@@ -1,5 +1,15 @@
 .title-1 {
     font-weight: 700;
-    font-size: 78px;
+    font-size: 68px;
     line-height: 1;
+
+    // Tablet Big
+    @media (max-width: 1139px) {
+        font-size: 58px;
+    }
+
+    // Tablet Small
+    @media (max-width: 899px) {
+        font-size: 42px;
+    }
 }

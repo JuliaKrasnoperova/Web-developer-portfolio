@@ -1,6 +1,11 @@
 .socials {
     display: flex;
     gap: 30px;
+
+    // Tablet Big
+    @media (max-width: 1139px) {
+        gap: 20px;
+    }
 }
 
 .socials a img {
@@ -10,5 +15,11 @@
 
     &:hover {
         filter: grayscale(1);
+    }
+
+    // Tablet Small
+    @media (max-width: 899px) {
+        width: 38px;
+        height: 38px;
     }
 }

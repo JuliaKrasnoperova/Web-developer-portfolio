@@ -5,13 +5,17 @@
     padding: 19px 40px;
     border-radius: 50px;
     cursor: pointer;
-}
 
-.button--yellow {
     background: #FBDC4D;
 
+    // Tablet Big
+    @media (max-width: 1139px) {
+        padding: 16px 26px;
+    }
 }
 
-.button--blue {
+
+
+.button--accent {
     background: #EFF7FC;
 }

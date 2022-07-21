@@ -1,9 +1,32 @@
 .process {
     padding-top: 70px;
     padding-bottom: 90px;
+
+    // Tablet Big
+    @media (max-width: 1139px) {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    // Tablet Small
+    @media (max-width: 899px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
 }
 
 .process__title-2 {
     text-align: center;
     margin-bottom: 77px;
+
+    // Tablet Big
+    @media (max-width: 1139px) {
+        margin-bottom: 50px;
+    }
+
+    // Tablet Small
+    @media (max-width: 899px) {
+        margin-bottom: 40px;
+    }
 }
