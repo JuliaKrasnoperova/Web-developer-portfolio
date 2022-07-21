@@ -7,6 +7,12 @@
     @media (max-width: 1139px) {
         width: 774px;
     }
+
+    // Mobile 
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
 }
 
 .timeline__item {
@@ -28,6 +34,11 @@
         padding-bottom: 40px;
         text-align: left;
         min-height: 150px;
+    }
+
+    // Mobile 
+    @media (max-width: 767px) {
+        width: 100%;
     }
 }
 

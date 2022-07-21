@@ -41,6 +41,11 @@
     @media (max-width: 899px) {
         row-gap: 20px;
     }
+
+    // Mobile 
+    @media (max-width: 767px) {
+        row-gap: 30px;
+    }
 }
 
 .projects__card-wrapper .projects__card:first-child {
@@ -55,6 +60,11 @@
         // Tablet Small
         @media (max-width: 899px) {
             width: 354px;
+        }
+
+        // Mobile 
+        @media (max-width: 767px) {
+            width: 290px;
         }
     }
 
@@ -100,6 +110,11 @@
         @media (max-width: 899px) {
             width: 354px;
         }
+
+        // Mobile 
+        @media (max-width: 767px) {
+            width: 290px;
+        }
     }
 
     .projects__card-title {
@@ -138,6 +153,11 @@
     // Tablet Big
     @media (max-width: 1139px) {
         width: 270px;
+    }
+
+    // Mobile 
+    @media (max-width: 767px) {
+        width: 290px;
     }
 
 }

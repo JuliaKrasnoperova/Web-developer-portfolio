@@ -278,6 +278,15 @@ body > * {
     padding-top: 30px;
   }
 }
+@media (max-width: 767px) {
+  .header__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
 
 .header__text {
   max-width: 542px;
@@ -339,6 +348,11 @@ body > * {
             box-shadow: none;
   }
 }
+@media (max-width: 767px) {
+  .header__image {
+    width: 320px;
+  }
+}
 
 .header__image img {
   width: 100%;
@@ -358,6 +372,12 @@ body > * {
     width: 900px;
   }
 }
+@media (max-width: 767px) {
+  .header__banner img {
+    width: 320px;
+    margin-top: 0;
+  }
+}
 
 .header__info {
   display: -webkit-box;
@@ -366,6 +386,15 @@ body > * {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .header__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
 }
 
 .header__info .title-3 {
@@ -408,7 +437,7 @@ body > * {
 }
 
 .header__points-item:not(last-child) {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .header__socials {
@@ -466,6 +495,11 @@ body > * {
     row-gap: 20px;
   }
 }
+@media (max-width: 767px) {
+  .projects__card-wrapper {
+    row-gap: 30px;
+  }
+}
 
 .projects__card-wrapper .projects__card:first-child .projects__card-image {
   width: 520px;
@@ -478,6 +512,11 @@ body > * {
 @media (max-width: 899px) {
   .projects__card-wrapper .projects__card:first-child .projects__card-image {
     width: 354px;
+  }
+}
+@media (max-width: 767px) {
+  .projects__card-wrapper .projects__card:first-child .projects__card-image {
+    width: 290px;
   }
 }
 .projects__card-wrapper .projects__card:first-child .projects__card-title {
@@ -520,6 +559,11 @@ body > * {
     width: 354px;
   }
 }
+@media (max-width: 767px) {
+  .projects__card-wrapper .projects__card:nth-child(2) .projects__card-image {
+    width: 290px;
+  }
+}
 .projects__card-wrapper .projects__card:nth-child(2) .projects__card-title {
   font-size: 30px;
 }
@@ -554,6 +598,11 @@ body > * {
 @media (max-width: 1139px) {
   .projects__card-image {
     width: 270px;
+  }
+}
+@media (max-width: 767px) {
+  .projects__card-image {
+    width: 290px;
   }
 }
 
@@ -639,6 +688,11 @@ body > * {
     margin-bottom: 40px;
   }
 }
+@media (max-width: 767px) {
+  .contacts__title-2 {
+    margin-bottom: 20px;
+  }
+}
 
 .contacts__wrapper {
   display: -webkit-box;
@@ -650,6 +704,15 @@ body > * {
 @media (max-width: 1139px) {
   .contacts__wrapper {
     margin-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 10px;
   }
 }
 
@@ -664,6 +727,11 @@ body > * {
     font-size: 18px;
   }
 }
+@media (max-width: 767px) {
+  .contacts__title {
+    font-size: 16px;
+  }
+}
 
 .contacts__text {
   position: relative;
@@ -671,6 +739,17 @@ body > * {
   font-size: 18px;
   line-height: 1.6;
   min-width: 420px;
+}
+@media (max-width: 1139px) {
+  .contacts__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__text {
+    min-width: auto;
+    font-size: 14px;
+  }
 }
 
 .contacts__text img {
@@ -682,6 +761,11 @@ body > * {
 @media (max-width: 1139px) {
   .contacts__text img {
     right: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__text img {
+    display: none;
   }
 }
 
@@ -768,6 +852,11 @@ body > * {
 @media (max-width: 899px) {
   .title-1 {
     font-size: 42px;
+  }
+}
+@media (max-width: 767px) {
+  .title-1 {
+    font-size: 32px;
   }
 }
 
@@ -906,6 +995,11 @@ body > * {
     width: 774px;
   }
 }
+@media (max-width: 767px) {
+  .timeline {
+    width: 100%;
+  }
+}
 
 .timeline__item {
   position: relative;
@@ -926,6 +1020,11 @@ body > * {
     padding-bottom: 40px;
     text-align: left;
     min-height: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .timeline__item {
+    width: 100%;
   }
 }
 
@@ -1037,6 +1136,11 @@ body > * {
 @media (max-width: 1139px) {
   .text-link {
     font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .text-link {
+    font-size: 16px;
   }
 }
 
