@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Title and SEO -->
-	<title>Стартовый шаблон</title>
+	<title>Веб-разработчик</title>
 	<meta name="description" content="Портфолио верстальщика, web-разработчика" />
 	<meta name="keywords"
 		content="портфолио, верстка страниц, верстка, web-разработка, веб-разработка, проггаммирование" />
@@ -43,10 +43,10 @@
 			<nav class="header__nav">
 				<div class="header__logo">HTML Верстальщик</div>
 				<ul class="header__list">
-					<li><a href="#">Навыки</a></li>
-					<li><a href="#">Портфолио</a></li>
-					<li><a href="#">Как я работаю</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="#skills">Навыки</a></li>
+					<li><a href="#projects">Портфолио</a></li>
+					<li><a href="#process">Как я работаю</a></li>
+					<li><a href="#contacts">Контакты</a></li>
 				</ul>
 				<div class="nav-icon">
 					<div class="nav-icon__middle"></div>
@@ -60,6 +60,37 @@
 					</a>
 				</div>
 			</nav>
+			<div class="nav__bg">
+				<div class="nav">
+					<ul class="nav__list">
+						<li><a class="nav__link" href="#skills">Навыки</a></li>
+						<li><a class="nav__link" href="#projects">Портфолио</a></li>
+						<li><a class="nav__link" href="#process">Как я работаю</a></li>
+						<li><a class="nav__link" href="#contacts">Контакты</a></li>
+					</ul>
+					<div class="nav__socials">
+						<div class="socials">
+							<a href="#">
+								<img src="./img/header/telegram.svg" alt="telegram">
+							</a>
+							<a href="#">
+								<img src="./img/header/vk.svg" alt="vk">
+							</a>
+							<a href="#">
+								<img src="./img/header/facebook.svg" alt="facebook">
+							</a>
+							<a href="#">
+								<img src="./img/header/instagram.svg" alt="instagram">
+							</a>
+							<a href="#">
+								<img src="./img/header/whatsapp.svg" alt="whatsapp">
+							</a>
+						</div>
+						<a href="mailto:julia.krasnoperova97@gmail.com"
+							class="text-link">julia.krasnoperova97@gmail.com</a>
+					</div>
+				</div>
+			</div>
 			<div class="header__description">
 				<div class="header__text">
 					<div class="header__title">
@@ -81,7 +112,7 @@
 		<div class="header__banner">
 			<img src="./img/header/header-banner.png" alt="banner">
 		</div>
-		<div class="header__info container">
+		<div id="skills" class="header__info container">
 			<div class="header__skills">
 				<h3 class="title-3">Что я умею:</h3>
 				<ul class="header__points">
@@ -115,7 +146,7 @@
 			</div>
 		</div>
 	</header>
-	<section class="projects">
+	<section id="projects" class="projects">
 		<div class="container">
 			<div class="projects__title-2">
 				<h2 class="title-2 gradient-line gradient-line--thin">Портфолио</h2>
@@ -159,7 +190,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="process">
+	<section id="process" class="process">
 		<div class="container">
 			<div class="process__title-2">
 				<h2 class="title-2 gradient-line gradient-line--thin">Как я работаю</h2>
@@ -215,7 +246,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts">
+	<section id="contacts" class="contacts">
 		<div class="container">
 			<div class="contacts__title-2">
 				<h2 class="title-2 gradient-line gradient-line--thin">Контакты</h2>
@@ -268,6 +299,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
