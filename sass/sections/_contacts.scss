@@ -73,11 +73,11 @@
     // Tablet Big
     @media (max-width: 1139px) {
         font-size: 16px;
+        min-width: auto;
     }
 
     // Mobile 
     @media (max-width: 767px) {
-        min-width: auto;
         font-size: 14px;
     }
 
